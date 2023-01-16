@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todolist</title>
+    <!--    Css样式-->
+    <link rel="stylesheet" href="./css/index.css">
+    <!--    字体-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ZCOOL%20KuaiLe">
+    <!--    Javascript代码-->
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+<div class="bg"></div>
+<div class="box">
+    <div class="container">
+        <div class="header">
+            <div class="img"><img src="./images/note.svg" alt=""></div>
+            <div class="title">待办事项</div>
+        </div>
+        <div class="main">
+            <h1 class="title">~ 今天需要做什么 ~</h1>
+            <form onsubmit="return false">
+                <div class="input">
+                    <input type="text" placeholder="试着写点什么？" class="int">
+                </div>
+                <button type="button" class="sub">
+                    <span>提交</span></button>
+            </form>
+        </div>
+        <ul class="liu">
+            <!--            <li>-->
+            <!--                <button class="check"></button>-->
+            <!--                <p class="content">这是测试的</p>-->
+            <!--                <button class="del">X</button>-->
+            <!--            </li>-->
+        </ul>
+
+        <div class="footer">
+            <span class="num "></span>
+            <button type="button" class="all">全选</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
